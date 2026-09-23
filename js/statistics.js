@@ -1,0 +1,1 @@
+import {avg} from './utils.js'; export function teamEval(es){return {behavior:avg(es.map(e=>e.comportamiento)),attitude:avg(es.map(e=>e.actitud)),efficacy:avg(es.map(e=>e.eficacia)),global:avg(es.flatMap(e=>[e.comportamiento,e.actitud,e.eficacia]))}}

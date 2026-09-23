@@ -1,0 +1,2280 @@
+{
+  "config": [
+    {
+      "id": "main",
+      "club": "Club Deportivo Demo",
+      "team": "Atlético Demo",
+      "category": "Cadete",
+      "season": "2026/2027",
+      "coach": "Entrenador Demo",
+      "assistant": "Segundo Entrenador",
+      "starters": 7,
+      "defaultMatchDuration": 60,
+      "positions": [
+        "Portero",
+        "Defensa",
+        "Centrocampista",
+        "Delantero"
+      ],
+      "trainingTypes": [
+        "Técnico",
+        "Táctico",
+        "Físico",
+        "Recuperación",
+        "Otro"
+      ]
+    }
+  ],
+  "players": [
+    {
+      "id": "J001",
+      "nombre": "Carlos",
+      "apellidos": "García",
+      "dorsal": 1,
+      "posicion": "Defensa",
+      "nacimiento": "2012-02-15",
+      "telefono": "",
+      "email": "",
+      "fechaAlta": "2026-08-20",
+      "activo": true,
+      "observaciones": ""
+    },
+    {
+      "id": "J002",
+      "nombre": "Pablo",
+      "apellidos": "López",
+      "dorsal": 2,
+      "posicion": "Centrocampista",
+      "nacimiento": "2012-03-15",
+      "telefono": "",
+      "email": "",
+      "fechaAlta": "2026-08-20",
+      "activo": true,
+      "observaciones": ""
+    },
+    {
+      "id": "J003",
+      "nombre": "Antonio",
+      "apellidos": "Ruiz",
+      "dorsal": 3,
+      "posicion": "Delantero",
+      "nacimiento": "2012-04-15",
+      "telefono": "",
+      "email": "",
+      "fechaAlta": "2026-08-20",
+      "activo": true,
+      "observaciones": ""
+    },
+    {
+      "id": "J004",
+      "nombre": "Luis",
+      "apellidos": "Martín",
+      "dorsal": 4,
+      "posicion": "Portero",
+      "nacimiento": "2012-05-15",
+      "telefono": "",
+      "email": "",
+      "fechaAlta": "2026-08-20",
+      "activo": true,
+      "observaciones": ""
+    },
+    {
+      "id": "J005",
+      "nombre": "Daniel",
+      "apellidos": "Sánchez",
+      "dorsal": 5,
+      "posicion": "Defensa",
+      "nacimiento": "2012-06-15",
+      "telefono": "",
+      "email": "",
+      "fechaAlta": "2026-08-20",
+      "activo": true,
+      "observaciones": ""
+    },
+    {
+      "id": "J006",
+      "nombre": "Álvaro",
+      "apellidos": "Romero",
+      "dorsal": 6,
+      "posicion": "Centrocampista",
+      "nacimiento": "2012-07-15",
+      "telefono": "",
+      "email": "",
+      "fechaAlta": "2026-08-20",
+      "activo": true,
+      "observaciones": ""
+    },
+    {
+      "id": "J007",
+      "nombre": "Hugo",
+      "apellidos": "Díaz",
+      "dorsal": 7,
+      "posicion": "Delantero",
+      "nacimiento": "2012-08-15",
+      "telefono": "",
+      "email": "",
+      "fechaAlta": "2026-08-20",
+      "activo": true,
+      "observaciones": ""
+    },
+    {
+      "id": "J008",
+      "nombre": "Mario",
+      "apellidos": "Moreno",
+      "dorsal": 8,
+      "posicion": "Portero",
+      "nacimiento": "2012-09-15",
+      "telefono": "",
+      "email": "",
+      "fechaAlta": "2026-08-20",
+      "activo": true,
+      "observaciones": ""
+    },
+    {
+      "id": "J009",
+      "nombre": "Javier",
+      "apellidos": "Navarro",
+      "dorsal": 9,
+      "posicion": "Defensa",
+      "nacimiento": "2012-01-15",
+      "telefono": "",
+      "email": "",
+      "fechaAlta": "2026-08-20",
+      "activo": true,
+      "observaciones": ""
+    },
+    {
+      "id": "J010",
+      "nombre": "Sergio",
+      "apellidos": "Torres",
+      "dorsal": 10,
+      "posicion": "Centrocampista",
+      "nacimiento": "2012-02-15",
+      "telefono": "",
+      "email": "",
+      "fechaAlta": "2026-08-20",
+      "activo": true,
+      "observaciones": ""
+    },
+    {
+      "id": "J011",
+      "nombre": "Adrián",
+      "apellidos": "Vega",
+      "dorsal": 11,
+      "posicion": "Delantero",
+      "nacimiento": "2012-03-15",
+      "telefono": "",
+      "email": "",
+      "fechaAlta": "2026-08-20",
+      "activo": true,
+      "observaciones": ""
+    },
+    {
+      "id": "J012",
+      "nombre": "Marcos",
+      "apellidos": "Gil",
+      "dorsal": 12,
+      "posicion": "Portero",
+      "nacimiento": "2012-04-15",
+      "telefono": "",
+      "email": "",
+      "fechaAlta": "2026-08-20",
+      "activo": true,
+      "observaciones": ""
+    },
+    {
+      "id": "J013",
+      "nombre": "Iván",
+      "apellidos": "Castro",
+      "dorsal": 13,
+      "posicion": "Defensa",
+      "nacimiento": "2012-05-15",
+      "telefono": "",
+      "email": "",
+      "fechaAlta": "2026-08-20",
+      "activo": true,
+      "observaciones": ""
+    },
+    {
+      "id": "J014",
+      "nombre": "Álex",
+      "apellidos": "Molina",
+      "dorsal": 14,
+      "posicion": "Centrocampista",
+      "nacimiento": "2012-06-15",
+      "telefono": "",
+      "email": "",
+      "fechaAlta": "2026-08-20",
+      "activo": true,
+      "observaciones": ""
+    },
+    {
+      "id": "J015",
+      "nombre": "Raúl",
+      "apellidos": "Ortega",
+      "dorsal": 15,
+      "posicion": "Delantero",
+      "nacimiento": "2012-07-15",
+      "telefono": "",
+      "email": "",
+      "fechaAlta": "2026-08-20",
+      "activo": true,
+      "observaciones": ""
+    }
+  ],
+  "trainings": [
+    {
+      "id": "E001",
+      "fecha": "2026-09-01",
+      "horaInicio": "18:00",
+      "horaFin": "19:30",
+      "lugar": "Campo Municipal",
+      "tipo": "Técnico",
+      "objetivos": "Mejorar conceptos colectivos y ejecución.",
+      "contenido": "Calentamiento, tarea principal y vuelta a la calma.",
+      "observaciones": "Buena intensidad general.",
+      "estado": "realizado"
+    },
+    {
+      "id": "E002",
+      "fecha": "2026-09-04",
+      "horaInicio": "18:00",
+      "horaFin": "19:30",
+      "lugar": "Campo Municipal",
+      "tipo": "Táctico",
+      "objetivos": "Mejorar conceptos colectivos y ejecución.",
+      "contenido": "Calentamiento, tarea principal y vuelta a la calma.",
+      "observaciones": "Buena intensidad general.",
+      "estado": "realizado"
+    },
+    {
+      "id": "E003",
+      "fecha": "2026-09-07",
+      "horaInicio": "18:00",
+      "horaFin": "19:30",
+      "lugar": "Campo Municipal",
+      "tipo": "Físico",
+      "objetivos": "Mejorar conceptos colectivos y ejecución.",
+      "contenido": "Calentamiento, tarea principal y vuelta a la calma.",
+      "observaciones": "Buena intensidad general.",
+      "estado": "realizado"
+    },
+    {
+      "id": "E004",
+      "fecha": "2026-09-10",
+      "horaInicio": "18:00",
+      "horaFin": "19:30",
+      "lugar": "Campo Municipal",
+      "tipo": "Técnico",
+      "objetivos": "Mejorar conceptos colectivos y ejecución.",
+      "contenido": "Calentamiento, tarea principal y vuelta a la calma.",
+      "observaciones": "Buena intensidad general.",
+      "estado": "realizado"
+    },
+    {
+      "id": "E005",
+      "fecha": "2026-09-13",
+      "horaInicio": "18:00",
+      "horaFin": "19:30",
+      "lugar": "Campo Municipal",
+      "tipo": "Táctico",
+      "objetivos": "Mejorar conceptos colectivos y ejecución.",
+      "contenido": "Calentamiento, tarea principal y vuelta a la calma.",
+      "observaciones": "Buena intensidad general.",
+      "estado": "realizado"
+    },
+    {
+      "id": "E006",
+      "fecha": "2026-09-16",
+      "horaInicio": "18:00",
+      "horaFin": "19:30",
+      "lugar": "Campo Municipal",
+      "tipo": "Físico",
+      "objetivos": "Mejorar conceptos colectivos y ejecución.",
+      "contenido": "Calentamiento, tarea principal y vuelta a la calma.",
+      "observaciones": "Buena intensidad general.",
+      "estado": "realizado"
+    },
+    {
+      "id": "E007",
+      "fecha": "2026-09-19",
+      "horaInicio": "18:00",
+      "horaFin": "19:30",
+      "lugar": "Campo Municipal",
+      "tipo": "Técnico",
+      "objetivos": "Mejorar conceptos colectivos y ejecución.",
+      "contenido": "Calentamiento, tarea principal y vuelta a la calma.",
+      "observaciones": "Buena intensidad general.",
+      "estado": "realizado"
+    },
+    {
+      "id": "E008",
+      "fecha": "2026-09-22",
+      "horaInicio": "18:00",
+      "horaFin": "19:30",
+      "lugar": "Campo Municipal",
+      "tipo": "Táctico",
+      "objetivos": "Mejorar conceptos colectivos y ejecución.",
+      "contenido": "Calentamiento, tarea principal y vuelta a la calma.",
+      "observaciones": "Buena intensidad general.",
+      "estado": "realizado"
+    },
+    {
+      "id": "E009",
+      "fecha": "2026-09-25",
+      "horaInicio": "18:00",
+      "horaFin": "19:30",
+      "lugar": "Campo Municipal",
+      "tipo": "Físico",
+      "objetivos": "Mejorar conceptos colectivos y ejecución.",
+      "contenido": "Calentamiento, tarea principal y vuelta a la calma.",
+      "observaciones": "Buena intensidad general.",
+      "estado": "planificado"
+    },
+    {
+      "id": "E010",
+      "fecha": "2026-09-28",
+      "horaInicio": "18:00",
+      "horaFin": "19:30",
+      "lugar": "Campo Municipal",
+      "tipo": "Técnico",
+      "objetivos": "Mejorar conceptos colectivos y ejecución.",
+      "contenido": "Calentamiento, tarea principal y vuelta a la calma.",
+      "observaciones": "Buena intensidad general.",
+      "estado": "planificado"
+    }
+  ],
+  "evaluations": [
+    {
+      "id": "EV_E001_J001",
+      "trainingId": "E001",
+      "playerId": "J001",
+      "asistencia": "justificada",
+      "comportamiento": null,
+      "actitud": null,
+      "eficacia": null,
+      "observaciones": "Buena evolución."
+    },
+    {
+      "id": "EV_E001_J002",
+      "trainingId": "E001",
+      "playerId": "J002",
+      "asistencia": "presente",
+      "comportamiento": 4,
+      "actitud": 5,
+      "eficacia": 3,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E001_J003",
+      "trainingId": "E001",
+      "playerId": "J003",
+      "asistencia": "presente",
+      "comportamiento": 5,
+      "actitud": 3,
+      "eficacia": 4,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E001_J004",
+      "trainingId": "E001",
+      "playerId": "J004",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E001_J005",
+      "trainingId": "E001",
+      "playerId": "J005",
+      "asistencia": "presente",
+      "comportamiento": 4,
+      "actitud": 5,
+      "eficacia": 3,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E001_J006",
+      "trainingId": "E001",
+      "playerId": "J006",
+      "asistencia": "presente",
+      "comportamiento": 5,
+      "actitud": 3,
+      "eficacia": 4,
+      "observaciones": "Buena evolución."
+    },
+    {
+      "id": "EV_E001_J007",
+      "trainingId": "E001",
+      "playerId": "J007",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E001_J008",
+      "trainingId": "E001",
+      "playerId": "J008",
+      "asistencia": "presente",
+      "comportamiento": 4,
+      "actitud": 5,
+      "eficacia": 3,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E001_J009",
+      "trainingId": "E001",
+      "playerId": "J009",
+      "asistencia": "justificada",
+      "comportamiento": null,
+      "actitud": null,
+      "eficacia": null,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E001_J010",
+      "trainingId": "E001",
+      "playerId": "J010",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E001_J011",
+      "trainingId": "E001",
+      "playerId": "J011",
+      "asistencia": "presente",
+      "comportamiento": 4,
+      "actitud": 5,
+      "eficacia": 3,
+      "observaciones": "Buena evolución."
+    },
+    {
+      "id": "EV_E001_J012",
+      "trainingId": "E001",
+      "playerId": "J012",
+      "asistencia": "presente",
+      "comportamiento": 5,
+      "actitud": 3,
+      "eficacia": 4,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E001_J013",
+      "trainingId": "E001",
+      "playerId": "J013",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E001_J014",
+      "trainingId": "E001",
+      "playerId": "J014",
+      "asistencia": "presente",
+      "comportamiento": 4,
+      "actitud": 5,
+      "eficacia": 3,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E001_J015",
+      "trainingId": "E001",
+      "playerId": "J015",
+      "asistencia": "presente",
+      "comportamiento": 5,
+      "actitud": 3,
+      "eficacia": 4,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E002_J001",
+      "trainingId": "E002",
+      "playerId": "J001",
+      "asistencia": "presente",
+      "comportamiento": 4,
+      "actitud": 5,
+      "eficacia": 3,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E002_J002",
+      "trainingId": "E002",
+      "playerId": "J002",
+      "asistencia": "presente",
+      "comportamiento": 5,
+      "actitud": 3,
+      "eficacia": 4,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E002_J003",
+      "trainingId": "E002",
+      "playerId": "J003",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E002_J004",
+      "trainingId": "E002",
+      "playerId": "J004",
+      "asistencia": "presente",
+      "comportamiento": 4,
+      "actitud": 5,
+      "eficacia": 3,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E002_J005",
+      "trainingId": "E002",
+      "playerId": "J005",
+      "asistencia": "presente",
+      "comportamiento": 5,
+      "actitud": 3,
+      "eficacia": 4,
+      "observaciones": "Buena evolución."
+    },
+    {
+      "id": "EV_E002_J006",
+      "trainingId": "E002",
+      "playerId": "J006",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E002_J007",
+      "trainingId": "E002",
+      "playerId": "J007",
+      "asistencia": "presente",
+      "comportamiento": 4,
+      "actitud": 5,
+      "eficacia": 3,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E002_J008",
+      "trainingId": "E002",
+      "playerId": "J008",
+      "asistencia": "justificada",
+      "comportamiento": null,
+      "actitud": null,
+      "eficacia": null,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E002_J009",
+      "trainingId": "E002",
+      "playerId": "J009",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E002_J010",
+      "trainingId": "E002",
+      "playerId": "J010",
+      "asistencia": "presente",
+      "comportamiento": 4,
+      "actitud": 5,
+      "eficacia": 3,
+      "observaciones": "Buena evolución."
+    },
+    {
+      "id": "EV_E002_J011",
+      "trainingId": "E002",
+      "playerId": "J011",
+      "asistencia": "presente",
+      "comportamiento": 5,
+      "actitud": 3,
+      "eficacia": 4,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E002_J012",
+      "trainingId": "E002",
+      "playerId": "J012",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E002_J013",
+      "trainingId": "E002",
+      "playerId": "J013",
+      "asistencia": "presente",
+      "comportamiento": 4,
+      "actitud": 5,
+      "eficacia": 3,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E002_J014",
+      "trainingId": "E002",
+      "playerId": "J014",
+      "asistencia": "presente",
+      "comportamiento": 5,
+      "actitud": 3,
+      "eficacia": 4,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E002_J015",
+      "trainingId": "E002",
+      "playerId": "J015",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": "Buena evolución."
+    },
+    {
+      "id": "EV_E003_J001",
+      "trainingId": "E003",
+      "playerId": "J001",
+      "asistencia": "presente",
+      "comportamiento": 5,
+      "actitud": 3,
+      "eficacia": 4,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E003_J002",
+      "trainingId": "E003",
+      "playerId": "J002",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E003_J003",
+      "trainingId": "E003",
+      "playerId": "J003",
+      "asistencia": "presente",
+      "comportamiento": 4,
+      "actitud": 5,
+      "eficacia": 3,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E003_J004",
+      "trainingId": "E003",
+      "playerId": "J004",
+      "asistencia": "presente",
+      "comportamiento": 5,
+      "actitud": 3,
+      "eficacia": 4,
+      "observaciones": "Buena evolución."
+    },
+    {
+      "id": "EV_E003_J005",
+      "trainingId": "E003",
+      "playerId": "J005",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E003_J006",
+      "trainingId": "E003",
+      "playerId": "J006",
+      "asistencia": "presente",
+      "comportamiento": 4,
+      "actitud": 5,
+      "eficacia": 3,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E003_J007",
+      "trainingId": "E003",
+      "playerId": "J007",
+      "asistencia": "justificada",
+      "comportamiento": null,
+      "actitud": null,
+      "eficacia": null,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E003_J008",
+      "trainingId": "E003",
+      "playerId": "J008",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E003_J009",
+      "trainingId": "E003",
+      "playerId": "J009",
+      "asistencia": "presente",
+      "comportamiento": 4,
+      "actitud": 5,
+      "eficacia": 3,
+      "observaciones": "Buena evolución."
+    },
+    {
+      "id": "EV_E003_J010",
+      "trainingId": "E003",
+      "playerId": "J010",
+      "asistencia": "presente",
+      "comportamiento": 5,
+      "actitud": 3,
+      "eficacia": 4,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E003_J011",
+      "trainingId": "E003",
+      "playerId": "J011",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E003_J012",
+      "trainingId": "E003",
+      "playerId": "J012",
+      "asistencia": "presente",
+      "comportamiento": 4,
+      "actitud": 5,
+      "eficacia": 3,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E003_J013",
+      "trainingId": "E003",
+      "playerId": "J013",
+      "asistencia": "presente",
+      "comportamiento": 5,
+      "actitud": 3,
+      "eficacia": 4,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E003_J014",
+      "trainingId": "E003",
+      "playerId": "J014",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": "Buena evolución."
+    },
+    {
+      "id": "EV_E003_J015",
+      "trainingId": "E003",
+      "playerId": "J015",
+      "asistencia": "justificada",
+      "comportamiento": null,
+      "actitud": null,
+      "eficacia": null,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E004_J001",
+      "trainingId": "E004",
+      "playerId": "J001",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E004_J002",
+      "trainingId": "E004",
+      "playerId": "J002",
+      "asistencia": "presente",
+      "comportamiento": 4,
+      "actitud": 5,
+      "eficacia": 3,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E004_J003",
+      "trainingId": "E004",
+      "playerId": "J003",
+      "asistencia": "presente",
+      "comportamiento": 5,
+      "actitud": 3,
+      "eficacia": 4,
+      "observaciones": "Buena evolución."
+    },
+    {
+      "id": "EV_E004_J004",
+      "trainingId": "E004",
+      "playerId": "J004",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E004_J005",
+      "trainingId": "E004",
+      "playerId": "J005",
+      "asistencia": "presente",
+      "comportamiento": 4,
+      "actitud": 5,
+      "eficacia": 3,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E004_J006",
+      "trainingId": "E004",
+      "playerId": "J006",
+      "asistencia": "justificada",
+      "comportamiento": null,
+      "actitud": null,
+      "eficacia": null,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E004_J007",
+      "trainingId": "E004",
+      "playerId": "J007",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E004_J008",
+      "trainingId": "E004",
+      "playerId": "J008",
+      "asistencia": "presente",
+      "comportamiento": 4,
+      "actitud": 5,
+      "eficacia": 3,
+      "observaciones": "Buena evolución."
+    },
+    {
+      "id": "EV_E004_J009",
+      "trainingId": "E004",
+      "playerId": "J009",
+      "asistencia": "presente",
+      "comportamiento": 5,
+      "actitud": 3,
+      "eficacia": 4,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E004_J010",
+      "trainingId": "E004",
+      "playerId": "J010",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E004_J011",
+      "trainingId": "E004",
+      "playerId": "J011",
+      "asistencia": "presente",
+      "comportamiento": 4,
+      "actitud": 5,
+      "eficacia": 3,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E004_J012",
+      "trainingId": "E004",
+      "playerId": "J012",
+      "asistencia": "presente",
+      "comportamiento": 5,
+      "actitud": 3,
+      "eficacia": 4,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E004_J013",
+      "trainingId": "E004",
+      "playerId": "J013",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": "Buena evolución."
+    },
+    {
+      "id": "EV_E004_J014",
+      "trainingId": "E004",
+      "playerId": "J014",
+      "asistencia": "justificada",
+      "comportamiento": null,
+      "actitud": null,
+      "eficacia": null,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E004_J015",
+      "trainingId": "E004",
+      "playerId": "J015",
+      "asistencia": "presente",
+      "comportamiento": 5,
+      "actitud": 3,
+      "eficacia": 4,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E005_J001",
+      "trainingId": "E005",
+      "playerId": "J001",
+      "asistencia": "presente",
+      "comportamiento": 4,
+      "actitud": 5,
+      "eficacia": 3,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E005_J002",
+      "trainingId": "E005",
+      "playerId": "J002",
+      "asistencia": "presente",
+      "comportamiento": 5,
+      "actitud": 3,
+      "eficacia": 4,
+      "observaciones": "Buena evolución."
+    },
+    {
+      "id": "EV_E005_J003",
+      "trainingId": "E005",
+      "playerId": "J003",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E005_J004",
+      "trainingId": "E005",
+      "playerId": "J004",
+      "asistencia": "presente",
+      "comportamiento": 4,
+      "actitud": 5,
+      "eficacia": 3,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E005_J005",
+      "trainingId": "E005",
+      "playerId": "J005",
+      "asistencia": "justificada",
+      "comportamiento": null,
+      "actitud": null,
+      "eficacia": null,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E005_J006",
+      "trainingId": "E005",
+      "playerId": "J006",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E005_J007",
+      "trainingId": "E005",
+      "playerId": "J007",
+      "asistencia": "presente",
+      "comportamiento": 4,
+      "actitud": 5,
+      "eficacia": 3,
+      "observaciones": "Buena evolución."
+    },
+    {
+      "id": "EV_E005_J008",
+      "trainingId": "E005",
+      "playerId": "J008",
+      "asistencia": "presente",
+      "comportamiento": 5,
+      "actitud": 3,
+      "eficacia": 4,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E005_J009",
+      "trainingId": "E005",
+      "playerId": "J009",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E005_J010",
+      "trainingId": "E005",
+      "playerId": "J010",
+      "asistencia": "presente",
+      "comportamiento": 4,
+      "actitud": 5,
+      "eficacia": 3,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E005_J011",
+      "trainingId": "E005",
+      "playerId": "J011",
+      "asistencia": "presente",
+      "comportamiento": 5,
+      "actitud": 3,
+      "eficacia": 4,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E005_J012",
+      "trainingId": "E005",
+      "playerId": "J012",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": "Buena evolución."
+    },
+    {
+      "id": "EV_E005_J013",
+      "trainingId": "E005",
+      "playerId": "J013",
+      "asistencia": "justificada",
+      "comportamiento": null,
+      "actitud": null,
+      "eficacia": null,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E005_J014",
+      "trainingId": "E005",
+      "playerId": "J014",
+      "asistencia": "presente",
+      "comportamiento": 5,
+      "actitud": 3,
+      "eficacia": 4,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E005_J015",
+      "trainingId": "E005",
+      "playerId": "J015",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E006_J001",
+      "trainingId": "E006",
+      "playerId": "J001",
+      "asistencia": "presente",
+      "comportamiento": 5,
+      "actitud": 3,
+      "eficacia": 4,
+      "observaciones": "Buena evolución."
+    },
+    {
+      "id": "EV_E006_J002",
+      "trainingId": "E006",
+      "playerId": "J002",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E006_J003",
+      "trainingId": "E006",
+      "playerId": "J003",
+      "asistencia": "presente",
+      "comportamiento": 4,
+      "actitud": 5,
+      "eficacia": 3,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E006_J004",
+      "trainingId": "E006",
+      "playerId": "J004",
+      "asistencia": "justificada",
+      "comportamiento": null,
+      "actitud": null,
+      "eficacia": null,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E006_J005",
+      "trainingId": "E006",
+      "playerId": "J005",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E006_J006",
+      "trainingId": "E006",
+      "playerId": "J006",
+      "asistencia": "presente",
+      "comportamiento": 4,
+      "actitud": 5,
+      "eficacia": 3,
+      "observaciones": "Buena evolución."
+    },
+    {
+      "id": "EV_E006_J007",
+      "trainingId": "E006",
+      "playerId": "J007",
+      "asistencia": "presente",
+      "comportamiento": 5,
+      "actitud": 3,
+      "eficacia": 4,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E006_J008",
+      "trainingId": "E006",
+      "playerId": "J008",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E006_J009",
+      "trainingId": "E006",
+      "playerId": "J009",
+      "asistencia": "presente",
+      "comportamiento": 4,
+      "actitud": 5,
+      "eficacia": 3,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E006_J010",
+      "trainingId": "E006",
+      "playerId": "J010",
+      "asistencia": "presente",
+      "comportamiento": 5,
+      "actitud": 3,
+      "eficacia": 4,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E006_J011",
+      "trainingId": "E006",
+      "playerId": "J011",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": "Buena evolución."
+    },
+    {
+      "id": "EV_E006_J012",
+      "trainingId": "E006",
+      "playerId": "J012",
+      "asistencia": "justificada",
+      "comportamiento": null,
+      "actitud": null,
+      "eficacia": null,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E006_J013",
+      "trainingId": "E006",
+      "playerId": "J013",
+      "asistencia": "presente",
+      "comportamiento": 5,
+      "actitud": 3,
+      "eficacia": 4,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E006_J014",
+      "trainingId": "E006",
+      "playerId": "J014",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E006_J015",
+      "trainingId": "E006",
+      "playerId": "J015",
+      "asistencia": "presente",
+      "comportamiento": 4,
+      "actitud": 5,
+      "eficacia": 3,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E007_J001",
+      "trainingId": "E007",
+      "playerId": "J001",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E007_J002",
+      "trainingId": "E007",
+      "playerId": "J002",
+      "asistencia": "presente",
+      "comportamiento": 4,
+      "actitud": 5,
+      "eficacia": 3,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E007_J003",
+      "trainingId": "E007",
+      "playerId": "J003",
+      "asistencia": "justificada",
+      "comportamiento": null,
+      "actitud": null,
+      "eficacia": null,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E007_J004",
+      "trainingId": "E007",
+      "playerId": "J004",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E007_J005",
+      "trainingId": "E007",
+      "playerId": "J005",
+      "asistencia": "presente",
+      "comportamiento": 4,
+      "actitud": 5,
+      "eficacia": 3,
+      "observaciones": "Buena evolución."
+    },
+    {
+      "id": "EV_E007_J006",
+      "trainingId": "E007",
+      "playerId": "J006",
+      "asistencia": "presente",
+      "comportamiento": 5,
+      "actitud": 3,
+      "eficacia": 4,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E007_J007",
+      "trainingId": "E007",
+      "playerId": "J007",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E007_J008",
+      "trainingId": "E007",
+      "playerId": "J008",
+      "asistencia": "presente",
+      "comportamiento": 4,
+      "actitud": 5,
+      "eficacia": 3,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E007_J009",
+      "trainingId": "E007",
+      "playerId": "J009",
+      "asistencia": "presente",
+      "comportamiento": 5,
+      "actitud": 3,
+      "eficacia": 4,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E007_J010",
+      "trainingId": "E007",
+      "playerId": "J010",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": "Buena evolución."
+    },
+    {
+      "id": "EV_E007_J011",
+      "trainingId": "E007",
+      "playerId": "J011",
+      "asistencia": "justificada",
+      "comportamiento": null,
+      "actitud": null,
+      "eficacia": null,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E007_J012",
+      "trainingId": "E007",
+      "playerId": "J012",
+      "asistencia": "presente",
+      "comportamiento": 5,
+      "actitud": 3,
+      "eficacia": 4,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E007_J013",
+      "trainingId": "E007",
+      "playerId": "J013",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E007_J014",
+      "trainingId": "E007",
+      "playerId": "J014",
+      "asistencia": "presente",
+      "comportamiento": 4,
+      "actitud": 5,
+      "eficacia": 3,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E007_J015",
+      "trainingId": "E007",
+      "playerId": "J015",
+      "asistencia": "presente",
+      "comportamiento": 5,
+      "actitud": 3,
+      "eficacia": 4,
+      "observaciones": "Buena evolución."
+    },
+    {
+      "id": "EV_E008_J001",
+      "trainingId": "E008",
+      "playerId": "J001",
+      "asistencia": "presente",
+      "comportamiento": 4,
+      "actitud": 5,
+      "eficacia": 3,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E008_J002",
+      "trainingId": "E008",
+      "playerId": "J002",
+      "asistencia": "justificada",
+      "comportamiento": null,
+      "actitud": null,
+      "eficacia": null,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E008_J003",
+      "trainingId": "E008",
+      "playerId": "J003",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E008_J004",
+      "trainingId": "E008",
+      "playerId": "J004",
+      "asistencia": "presente",
+      "comportamiento": 4,
+      "actitud": 5,
+      "eficacia": 3,
+      "observaciones": "Buena evolución."
+    },
+    {
+      "id": "EV_E008_J005",
+      "trainingId": "E008",
+      "playerId": "J005",
+      "asistencia": "presente",
+      "comportamiento": 5,
+      "actitud": 3,
+      "eficacia": 4,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E008_J006",
+      "trainingId": "E008",
+      "playerId": "J006",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E008_J007",
+      "trainingId": "E008",
+      "playerId": "J007",
+      "asistencia": "presente",
+      "comportamiento": 4,
+      "actitud": 5,
+      "eficacia": 3,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E008_J008",
+      "trainingId": "E008",
+      "playerId": "J008",
+      "asistencia": "presente",
+      "comportamiento": 5,
+      "actitud": 3,
+      "eficacia": 4,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E008_J009",
+      "trainingId": "E008",
+      "playerId": "J009",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": "Buena evolución."
+    },
+    {
+      "id": "EV_E008_J010",
+      "trainingId": "E008",
+      "playerId": "J010",
+      "asistencia": "justificada",
+      "comportamiento": null,
+      "actitud": null,
+      "eficacia": null,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E008_J011",
+      "trainingId": "E008",
+      "playerId": "J011",
+      "asistencia": "presente",
+      "comportamiento": 5,
+      "actitud": 3,
+      "eficacia": 4,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E008_J012",
+      "trainingId": "E008",
+      "playerId": "J012",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E008_J013",
+      "trainingId": "E008",
+      "playerId": "J013",
+      "asistencia": "presente",
+      "comportamiento": 4,
+      "actitud": 5,
+      "eficacia": 3,
+      "observaciones": ""
+    },
+    {
+      "id": "EV_E008_J014",
+      "trainingId": "E008",
+      "playerId": "J014",
+      "asistencia": "presente",
+      "comportamiento": 5,
+      "actitud": 3,
+      "eficacia": 4,
+      "observaciones": "Buena evolución."
+    },
+    {
+      "id": "EV_E008_J015",
+      "trainingId": "E008",
+      "playerId": "J015",
+      "asistencia": "presente",
+      "comportamiento": 3,
+      "actitud": 4,
+      "eficacia": 5,
+      "observaciones": ""
+    }
+  ],
+  "matches": [
+    {
+      "id": "P001",
+      "fecha": "2026-09-05",
+      "hora": "11:30",
+      "jornada": 1,
+      "competicion": "Liga",
+      "equipoLocal": "Atlético Demo",
+      "equipoVisitante": "Rival 1",
+      "somosLocal": true,
+      "lugar": "Campo Municipal",
+      "duracion": 60,
+      "golesLocal": 3,
+      "golesVisitante": 1,
+      "estado": "disputado",
+      "observaciones": ""
+    },
+    {
+      "id": "P002",
+      "fecha": "2026-09-12",
+      "hora": "11:30",
+      "jornada": 2,
+      "competicion": "Liga",
+      "equipoLocal": "Rival 2",
+      "equipoVisitante": "Atlético Demo",
+      "somosLocal": false,
+      "lugar": "Campo Municipal",
+      "duracion": 60,
+      "golesLocal": 1,
+      "golesVisitante": 1,
+      "estado": "disputado",
+      "observaciones": ""
+    },
+    {
+      "id": "P003",
+      "fecha": "2026-09-19",
+      "hora": "11:30",
+      "jornada": 3,
+      "competicion": "Liga",
+      "equipoLocal": "Atlético Demo",
+      "equipoVisitante": "Rival 3",
+      "somosLocal": true,
+      "lugar": "Campo Municipal",
+      "duracion": 60,
+      "golesLocal": 2,
+      "golesVisitante": 3,
+      "estado": "disputado",
+      "observaciones": ""
+    },
+    {
+      "id": "P004",
+      "fecha": "2026-09-26",
+      "hora": "11:30",
+      "jornada": 4,
+      "competicion": "Liga",
+      "equipoLocal": "Rival 4",
+      "equipoVisitante": "Atlético Demo",
+      "somosLocal": false,
+      "lugar": "Campo Municipal",
+      "duracion": 60,
+      "golesLocal": 0,
+      "golesVisitante": 2,
+      "estado": "disputado",
+      "observaciones": ""
+    },
+    {
+      "id": "P005",
+      "fecha": "2026-10-03",
+      "hora": "11:30",
+      "jornada": 5,
+      "competicion": "Liga",
+      "equipoLocal": "Atlético Demo",
+      "equipoVisitante": "Rival 5",
+      "somosLocal": true,
+      "lugar": "Campo Municipal",
+      "duracion": 60,
+      "golesLocal": 4,
+      "golesVisitante": 2,
+      "estado": "disputado",
+      "observaciones": ""
+    }
+  ],
+  "callups": [
+    {
+      "id": "C_P001_J001",
+      "matchId": "P001",
+      "playerId": "J001",
+      "convocado": true,
+      "situacionInicial": "titular"
+    },
+    {
+      "id": "C_P001_J002",
+      "matchId": "P001",
+      "playerId": "J002",
+      "convocado": true,
+      "situacionInicial": "titular"
+    },
+    {
+      "id": "C_P001_J003",
+      "matchId": "P001",
+      "playerId": "J003",
+      "convocado": true,
+      "situacionInicial": "titular"
+    },
+    {
+      "id": "C_P001_J004",
+      "matchId": "P001",
+      "playerId": "J004",
+      "convocado": true,
+      "situacionInicial": "titular"
+    },
+    {
+      "id": "C_P001_J005",
+      "matchId": "P001",
+      "playerId": "J005",
+      "convocado": true,
+      "situacionInicial": "titular"
+    },
+    {
+      "id": "C_P001_J006",
+      "matchId": "P001",
+      "playerId": "J006",
+      "convocado": true,
+      "situacionInicial": "titular"
+    },
+    {
+      "id": "C_P001_J007",
+      "matchId": "P001",
+      "playerId": "J007",
+      "convocado": true,
+      "situacionInicial": "titular"
+    },
+    {
+      "id": "C_P001_J008",
+      "matchId": "P001",
+      "playerId": "J008",
+      "convocado": true,
+      "situacionInicial": "suplente"
+    },
+    {
+      "id": "C_P001_J009",
+      "matchId": "P001",
+      "playerId": "J009",
+      "convocado": true,
+      "situacionInicial": "suplente"
+    },
+    {
+      "id": "C_P001_J010",
+      "matchId": "P001",
+      "playerId": "J010",
+      "convocado": true,
+      "situacionInicial": "suplente"
+    },
+    {
+      "id": "C_P001_J011",
+      "matchId": "P001",
+      "playerId": "J011",
+      "convocado": true,
+      "situacionInicial": "suplente"
+    },
+    {
+      "id": "C_P001_J012",
+      "matchId": "P001",
+      "playerId": "J012",
+      "convocado": true,
+      "situacionInicial": "suplente"
+    },
+    {
+      "id": "C_P001_J013",
+      "matchId": "P001",
+      "playerId": "J013",
+      "convocado": false,
+      "situacionInicial": "noConvocado"
+    },
+    {
+      "id": "C_P001_J014",
+      "matchId": "P001",
+      "playerId": "J014",
+      "convocado": false,
+      "situacionInicial": "noConvocado"
+    },
+    {
+      "id": "C_P001_J015",
+      "matchId": "P001",
+      "playerId": "J015",
+      "convocado": false,
+      "situacionInicial": "noConvocado"
+    },
+    {
+      "id": "C_P002_J001",
+      "matchId": "P002",
+      "playerId": "J001",
+      "convocado": true,
+      "situacionInicial": "titular"
+    },
+    {
+      "id": "C_P002_J002",
+      "matchId": "P002",
+      "playerId": "J002",
+      "convocado": true,
+      "situacionInicial": "titular"
+    },
+    {
+      "id": "C_P002_J003",
+      "matchId": "P002",
+      "playerId": "J003",
+      "convocado": true,
+      "situacionInicial": "titular"
+    },
+    {
+      "id": "C_P002_J004",
+      "matchId": "P002",
+      "playerId": "J004",
+      "convocado": true,
+      "situacionInicial": "titular"
+    },
+    {
+      "id": "C_P002_J005",
+      "matchId": "P002",
+      "playerId": "J005",
+      "convocado": true,
+      "situacionInicial": "titular"
+    },
+    {
+      "id": "C_P002_J006",
+      "matchId": "P002",
+      "playerId": "J006",
+      "convocado": true,
+      "situacionInicial": "titular"
+    },
+    {
+      "id": "C_P002_J007",
+      "matchId": "P002",
+      "playerId": "J007",
+      "convocado": true,
+      "situacionInicial": "titular"
+    },
+    {
+      "id": "C_P002_J008",
+      "matchId": "P002",
+      "playerId": "J008",
+      "convocado": true,
+      "situacionInicial": "suplente"
+    },
+    {
+      "id": "C_P002_J009",
+      "matchId": "P002",
+      "playerId": "J009",
+      "convocado": true,
+      "situacionInicial": "suplente"
+    },
+    {
+      "id": "C_P002_J010",
+      "matchId": "P002",
+      "playerId": "J010",
+      "convocado": true,
+      "situacionInicial": "suplente"
+    },
+    {
+      "id": "C_P002_J011",
+      "matchId": "P002",
+      "playerId": "J011",
+      "convocado": true,
+      "situacionInicial": "suplente"
+    },
+    {
+      "id": "C_P002_J012",
+      "matchId": "P002",
+      "playerId": "J012",
+      "convocado": true,
+      "situacionInicial": "suplente"
+    },
+    {
+      "id": "C_P002_J013",
+      "matchId": "P002",
+      "playerId": "J013",
+      "convocado": false,
+      "situacionInicial": "noConvocado"
+    },
+    {
+      "id": "C_P002_J014",
+      "matchId": "P002",
+      "playerId": "J014",
+      "convocado": false,
+      "situacionInicial": "noConvocado"
+    },
+    {
+      "id": "C_P002_J015",
+      "matchId": "P002",
+      "playerId": "J015",
+      "convocado": false,
+      "situacionInicial": "noConvocado"
+    },
+    {
+      "id": "C_P003_J001",
+      "matchId": "P003",
+      "playerId": "J001",
+      "convocado": true,
+      "situacionInicial": "titular"
+    },
+    {
+      "id": "C_P003_J002",
+      "matchId": "P003",
+      "playerId": "J002",
+      "convocado": true,
+      "situacionInicial": "titular"
+    },
+    {
+      "id": "C_P003_J003",
+      "matchId": "P003",
+      "playerId": "J003",
+      "convocado": true,
+      "situacionInicial": "titular"
+    },
+    {
+      "id": "C_P003_J004",
+      "matchId": "P003",
+      "playerId": "J004",
+      "convocado": true,
+      "situacionInicial": "titular"
+    },
+    {
+      "id": "C_P003_J005",
+      "matchId": "P003",
+      "playerId": "J005",
+      "convocado": true,
+      "situacionInicial": "titular"
+    },
+    {
+      "id": "C_P003_J006",
+      "matchId": "P003",
+      "playerId": "J006",
+      "convocado": true,
+      "situacionInicial": "titular"
+    },
+    {
+      "id": "C_P003_J007",
+      "matchId": "P003",
+      "playerId": "J007",
+      "convocado": true,
+      "situacionInicial": "titular"
+    },
+    {
+      "id": "C_P003_J008",
+      "matchId": "P003",
+      "playerId": "J008",
+      "convocado": true,
+      "situacionInicial": "suplente"
+    },
+    {
+      "id": "C_P003_J009",
+      "matchId": "P003",
+      "playerId": "J009",
+      "convocado": true,
+      "situacionInicial": "suplente"
+    },
+    {
+      "id": "C_P003_J010",
+      "matchId": "P003",
+      "playerId": "J010",
+      "convocado": true,
+      "situacionInicial": "suplente"
+    },
+    {
+      "id": "C_P003_J011",
+      "matchId": "P003",
+      "playerId": "J011",
+      "convocado": true,
+      "situacionInicial": "suplente"
+    },
+    {
+      "id": "C_P003_J012",
+      "matchId": "P003",
+      "playerId": "J012",
+      "convocado": true,
+      "situacionInicial": "suplente"
+    },
+    {
+      "id": "C_P003_J013",
+      "matchId": "P003",
+      "playerId": "J013",
+      "convocado": false,
+      "situacionInicial": "noConvocado"
+    },
+    {
+      "id": "C_P003_J014",
+      "matchId": "P003",
+      "playerId": "J014",
+      "convocado": false,
+      "situacionInicial": "noConvocado"
+    },
+    {
+      "id": "C_P003_J015",
+      "matchId": "P003",
+      "playerId": "J015",
+      "convocado": false,
+      "situacionInicial": "noConvocado"
+    },
+    {
+      "id": "C_P004_J001",
+      "matchId": "P004",
+      "playerId": "J001",
+      "convocado": true,
+      "situacionInicial": "titular"
+    },
+    {
+      "id": "C_P004_J002",
+      "matchId": "P004",
+      "playerId": "J002",
+      "convocado": true,
+      "situacionInicial": "titular"
+    },
+    {
+      "id": "C_P004_J003",
+      "matchId": "P004",
+      "playerId": "J003",
+      "convocado": true,
+      "situacionInicial": "titular"
+    },
+    {
+      "id": "C_P004_J004",
+      "matchId": "P004",
+      "playerId": "J004",
+      "convocado": true,
+      "situacionInicial": "titular"
+    },
+    {
+      "id": "C_P004_J005",
+      "matchId": "P004",
+      "playerId": "J005",
+      "convocado": true,
+      "situacionInicial": "titular"
+    },
+    {
+      "id": "C_P004_J006",
+      "matchId": "P004",
+      "playerId": "J006",
+      "convocado": true,
+      "situacionInicial": "titular"
+    },
+    {
+      "id": "C_P004_J007",
+      "matchId": "P004",
+      "playerId": "J007",
+      "convocado": true,
+      "situacionInicial": "titular"
+    },
+    {
+      "id": "C_P004_J008",
+      "matchId": "P004",
+      "playerId": "J008",
+      "convocado": true,
+      "situacionInicial": "suplente"
+    },
+    {
+      "id": "C_P004_J009",
+      "matchId": "P004",
+      "playerId": "J009",
+      "convocado": true,
+      "situacionInicial": "suplente"
+    },
+    {
+      "id": "C_P004_J010",
+      "matchId": "P004",
+      "playerId": "J010",
+      "convocado": true,
+      "situacionInicial": "suplente"
+    },
+    {
+      "id": "C_P004_J011",
+      "matchId": "P004",
+      "playerId": "J011",
+      "convocado": true,
+      "situacionInicial": "suplente"
+    },
+    {
+      "id": "C_P004_J012",
+      "matchId": "P004",
+      "playerId": "J012",
+      "convocado": true,
+      "situacionInicial": "suplente"
+    },
+    {
+      "id": "C_P004_J013",
+      "matchId": "P004",
+      "playerId": "J013",
+      "convocado": false,
+      "situacionInicial": "noConvocado"
+    },
+    {
+      "id": "C_P004_J014",
+      "matchId": "P004",
+      "playerId": "J014",
+      "convocado": false,
+      "situacionInicial": "noConvocado"
+    },
+    {
+      "id": "C_P004_J015",
+      "matchId": "P004",
+      "playerId": "J015",
+      "convocado": false,
+      "situacionInicial": "noConvocado"
+    },
+    {
+      "id": "C_P005_J001",
+      "matchId": "P005",
+      "playerId": "J001",
+      "convocado": true,
+      "situacionInicial": "titular"
+    },
+    {
+      "id": "C_P005_J002",
+      "matchId": "P005",
+      "playerId": "J002",
+      "convocado": true,
+      "situacionInicial": "titular"
+    },
+    {
+      "id": "C_P005_J003",
+      "matchId": "P005",
+      "playerId": "J003",
+      "convocado": true,
+      "situacionInicial": "titular"
+    },
+    {
+      "id": "C_P005_J004",
+      "matchId": "P005",
+      "playerId": "J004",
+      "convocado": true,
+      "situacionInicial": "titular"
+    },
+    {
+      "id": "C_P005_J005",
+      "matchId": "P005",
+      "playerId": "J005",
+      "convocado": true,
+      "situacionInicial": "titular"
+    },
+    {
+      "id": "C_P005_J006",
+      "matchId": "P005",
+      "playerId": "J006",
+      "convocado": true,
+      "situacionInicial": "titular"
+    },
+    {
+      "id": "C_P005_J007",
+      "matchId": "P005",
+      "playerId": "J007",
+      "convocado": true,
+      "situacionInicial": "titular"
+    },
+    {
+      "id": "C_P005_J008",
+      "matchId": "P005",
+      "playerId": "J008",
+      "convocado": true,
+      "situacionInicial": "suplente"
+    },
+    {
+      "id": "C_P005_J009",
+      "matchId": "P005",
+      "playerId": "J009",
+      "convocado": true,
+      "situacionInicial": "suplente"
+    },
+    {
+      "id": "C_P005_J010",
+      "matchId": "P005",
+      "playerId": "J010",
+      "convocado": true,
+      "situacionInicial": "suplente"
+    },
+    {
+      "id": "C_P005_J011",
+      "matchId": "P005",
+      "playerId": "J011",
+      "convocado": true,
+      "situacionInicial": "suplente"
+    },
+    {
+      "id": "C_P005_J012",
+      "matchId": "P005",
+      "playerId": "J012",
+      "convocado": true,
+      "situacionInicial": "suplente"
+    },
+    {
+      "id": "C_P005_J013",
+      "matchId": "P005",
+      "playerId": "J013",
+      "convocado": false,
+      "situacionInicial": "noConvocado"
+    },
+    {
+      "id": "C_P005_J014",
+      "matchId": "P005",
+      "playerId": "J014",
+      "convocado": false,
+      "situacionInicial": "noConvocado"
+    },
+    {
+      "id": "C_P005_J015",
+      "matchId": "P005",
+      "playerId": "J015",
+      "convocado": false,
+      "situacionInicial": "noConvocado"
+    }
+  ],
+  "changes": [
+    {
+      "id": "X_P001_0",
+      "matchId": "P001",
+      "minuto": 25,
+      "jugadorSaleId": "J001",
+      "jugadorEntraId": "J008",
+      "observaciones": ""
+    },
+    {
+      "id": "X_P001_1",
+      "matchId": "P001",
+      "minuto": 35,
+      "jugadorSaleId": "J002",
+      "jugadorEntraId": "J009",
+      "observaciones": ""
+    },
+    {
+      "id": "X_P001_2",
+      "matchId": "P001",
+      "minuto": 50,
+      "jugadorSaleId": "J008",
+      "jugadorEntraId": "J001",
+      "observaciones": ""
+    },
+    {
+      "id": "X_P002_0",
+      "matchId": "P002",
+      "minuto": 25,
+      "jugadorSaleId": "J001",
+      "jugadorEntraId": "J008",
+      "observaciones": ""
+    },
+    {
+      "id": "X_P002_1",
+      "matchId": "P002",
+      "minuto": 35,
+      "jugadorSaleId": "J002",
+      "jugadorEntraId": "J009",
+      "observaciones": ""
+    },
+    {
+      "id": "X_P002_2",
+      "matchId": "P002",
+      "minuto": 50,
+      "jugadorSaleId": "J008",
+      "jugadorEntraId": "J001",
+      "observaciones": ""
+    },
+    {
+      "id": "X_P003_0",
+      "matchId": "P003",
+      "minuto": 25,
+      "jugadorSaleId": "J001",
+      "jugadorEntraId": "J008",
+      "observaciones": ""
+    },
+    {
+      "id": "X_P003_1",
+      "matchId": "P003",
+      "minuto": 35,
+      "jugadorSaleId": "J002",
+      "jugadorEntraId": "J009",
+      "observaciones": ""
+    },
+    {
+      "id": "X_P003_2",
+      "matchId": "P003",
+      "minuto": 50,
+      "jugadorSaleId": "J008",
+      "jugadorEntraId": "J001",
+      "observaciones": ""
+    },
+    {
+      "id": "X_P004_0",
+      "matchId": "P004",
+      "minuto": 25,
+      "jugadorSaleId": "J001",
+      "jugadorEntraId": "J008",
+      "observaciones": ""
+    },
+    {
+      "id": "X_P004_1",
+      "matchId": "P004",
+      "minuto": 35,
+      "jugadorSaleId": "J002",
+      "jugadorEntraId": "J009",
+      "observaciones": ""
+    },
+    {
+      "id": "X_P004_2",
+      "matchId": "P004",
+      "minuto": 50,
+      "jugadorSaleId": "J008",
+      "jugadorEntraId": "J001",
+      "observaciones": ""
+    },
+    {
+      "id": "X_P005_0",
+      "matchId": "P005",
+      "minuto": 25,
+      "jugadorSaleId": "J001",
+      "jugadorEntraId": "J008",
+      "observaciones": ""
+    },
+    {
+      "id": "X_P005_1",
+      "matchId": "P005",
+      "minuto": 35,
+      "jugadorSaleId": "J002",
+      "jugadorEntraId": "J009",
+      "observaciones": ""
+    },
+    {
+      "id": "X_P005_2",
+      "matchId": "P005",
+      "minuto": 50,
+      "jugadorSaleId": "J008",
+      "jugadorEntraId": "J001",
+      "observaciones": ""
+    }
+  ]
+}

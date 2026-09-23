@@ -1,0 +1,1 @@
+import {playerStats} from './players.js'; export async function compare(ids){return Promise.all(ids.map(async id=>({id,stats:await playerStats(id)})))}

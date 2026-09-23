@@ -1,0 +1,1 @@
+export const ATTENDANCE=[['presente','Presente'],['justificada','Aus. justificada'],['noJustificada','Aus. no justificada'],['lesionado','Lesionado'],['tarde','Llegada tarde']]; export const evaluationMean=e=>{const a=[e.comportamiento,e.actitud,e.eficacia].filter(Number.isFinite);return a.length?a.reduce((x,y)=>x+y,0)/a.length:null};

@@ -1,0 +1,1 @@
+export const TRAINING_TYPES=['Técnico','Táctico','Físico','Partido/Competición','Recuperación','Otro'];

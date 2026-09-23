@@ -1,0 +1,16 @@
+
+:root{--nav:#10243e;--nav2:#17395f;--accent:#1d75bd;--bg:#f4f7fb;--text:#1f2937}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif}
+.app-shell{min-height:100vh;display:flex}.sidebar{width:250px;background:linear-gradient(180deg,var(--nav),var(--nav2));color:#fff;position:fixed;inset:0 auto 0 0;padding:18px 12px;z-index:1040;overflow:auto}
+.brand{display:flex;gap:12px;align-items:center;padding:10px 12px 22px}.brand i{font-size:28px}.brand small{display:block;opacity:.65}
+.nav-link-app{display:flex;align-items:center;gap:12px;color:#dce7f3;text-decoration:none;padding:11px 13px;border-radius:10px;margin:3px 0}.nav-link-app:hover,.nav-link-app.active{background:#ffffff18;color:#fff}
+.main{margin-left:250px;width:calc(100% - 250px)}.topbar{height:76px;background:#fff;border-bottom:1px solid #e6ebf2;display:flex;align-items:center;padding:12px 24px;position:sticky;top:0;z-index:1020}.topbar h1{font-size:22px;margin:0}
+.content{padding:24px}.card{border:0;border-radius:16px;box-shadow:0 3px 18px #1d35570d}.stat-card .icon{width:46px;height:46px;border-radius:12px;background:#e8f2fb;color:var(--accent);display:grid;place-items:center;font-size:20px}.stat-value{font-size:28px;font-weight:800}
+.section-title{font-size:18px;font-weight:750;margin-bottom:14px}.table>:not(caption)>*>*{padding:.8rem}.table thead th{font-size:.78rem;text-transform:uppercase;color:#64748b;white-space:nowrap}
+.rating{display:flex;gap:4px;flex-wrap:nowrap}.rate-btn{width:34px;height:34px;border:1px solid #cbd5e1;background:#fff;border-radius:50%;font-weight:700}.rate-btn.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.player-quick{border-left:4px solid var(--accent)}.attendance-pills{display:flex;gap:5px;flex-wrap:wrap}.attendance-pills .btn{border-radius:999px}
+.save-badge{opacity:0;transition:.25s;color:#198754;font-size:.85rem}.save-badge.show{opacity:1}
+.calendar-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:7px}.cal-head{text-align:center;font-weight:700;color:#64748b}.cal-day{background:#fff;border-radius:12px;min-height:115px;padding:8px;border:1px solid #e8edf3}.cal-day.muted{opacity:.45}.cal-num{font-weight:700}.event{font-size:.76rem;border-radius:7px;padding:5px 7px;margin-top:5px;cursor:pointer;background:#e9f3ff}.event.match{background:#fff1df}
+.compare-table th:first-child{min-width:210px}.metric-good{font-weight:700}.match-score{font-size:28px;font-weight:800}.field-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px}
+.player-chip{padding:10px;border-radius:10px;background:#eef4fa}.player-chip.onfield{background:#e8f7ed;border:1px solid #a9ddba}
+@media print{.sidebar,.topbar,.no-print{display:none!important}.main{margin:0;width:100%}.content{padding:0}.card{box-shadow:none;border:1px solid #ddd}.btn{display:none!important}}

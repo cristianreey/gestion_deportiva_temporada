@@ -1,0 +1,3 @@
+
+@media(max-width:991.98px){.sidebar{transform:translateX(-100%);transition:.25s}.sidebar.open{transform:none;box-shadow:10px 0 30px #0003}.main{margin-left:0;width:100%}.content{padding:15px}.topbar{padding:10px 15px}.calendar-grid{gap:3px}.cal-day{min-height:82px;padding:5px}.event{font-size:.65rem;padding:3px}.table-responsive{border-radius:12px}.player-quick .card-body{padding:14px}}
+@media(max-width:575px){.stat-value{font-size:23px}.rating .rate-btn{width:32px;height:32px}.content{padding:10px}.calendar-grid{font-size:.75rem}.cal-day{min-height:68px}.event{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.topbar h1{font-size:19px}}
