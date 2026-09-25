@@ -1,6 +1,6 @@
 
-const DB_NAME='GestionDeportivaDB', DB_VERSION=1;
-const STORES=['config','players','trainings','evaluations','matches','callups','changes'];
+const DB_NAME='GestionDeportivaDB', DB_VERSION=2;
+const STORES=['config','players','trainings','evaluations','matches','callups','changes','lineups','lineupPlayers'];
 let dbp;
 function openDB(){if(dbp)return dbp;dbp=new Promise((resolve,reject)=>{const r=indexedDB.open(DB_NAME,DB_VERSION);r.onupgradeneeded=()=>{const db=r.result;for(const s of STORES)if(!db.objectStoreNames.contains(s))db.createObjectStore(s,{keyPath:'id'})};r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error)});return dbp}
 async function tx(store,mode='readonly'){const db=await openDB();return db.transaction(store,mode).objectStore(store)}

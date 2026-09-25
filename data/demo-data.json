@@ -22,7 +22,13 @@
         "Físico",
         "Recuperación",
         "Otro"
-      ]
+      ],
+      "convocationWeights": {
+        "rendimiento": 50,
+        "asistencia": 25,
+        "puntualidad": 15,
+        "evolucion": 10
+      }
     }
   ],
   "players": [
@@ -1561,7 +1567,8 @@
       "golesLocal": 3,
       "golesVisitante": 1,
       "estado": "disputado",
-      "observaciones": ""
+      "observaciones": "",
+      "maxConvocados": null
     },
     {
       "id": "P002",
@@ -1577,7 +1584,8 @@
       "golesLocal": 1,
       "golesVisitante": 1,
       "estado": "disputado",
-      "observaciones": ""
+      "observaciones": "",
+      "maxConvocados": null
     },
     {
       "id": "P003",
@@ -1593,7 +1601,8 @@
       "golesLocal": 2,
       "golesVisitante": 3,
       "estado": "disputado",
-      "observaciones": ""
+      "observaciones": "",
+      "maxConvocados": null
     },
     {
       "id": "P004",
@@ -1609,7 +1618,8 @@
       "golesLocal": 0,
       "golesVisitante": 2,
       "estado": "disputado",
-      "observaciones": ""
+      "observaciones": "",
+      "maxConvocados": null
     },
     {
       "id": "P005",
@@ -1625,7 +1635,8 @@
       "golesLocal": 4,
       "golesVisitante": 2,
       "estado": "disputado",
-      "observaciones": ""
+      "observaciones": "",
+      "maxConvocados": null
     }
   ],
   "callups": [
