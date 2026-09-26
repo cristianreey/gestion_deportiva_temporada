@@ -12,5 +12,5 @@ export const repo={
  async delete(s,id){const o=await tx(s,'readwrite');return new Promise((res,rej)=>{const r=o.delete(id);r.onsuccess=()=>res();r.onerror=()=>rej(r.error)})},
  async clear(s){const o=await tx(s,'readwrite');return new Promise((res,rej)=>{const r=o.clear();r.onsuccess=()=>res();r.onerror=()=>rej(r.error)})},
  async replaceAll(data){for(const s of STORES){await this.clear(s);for(const x of (data[s]||[]))await this.put(s,x)}},
- async dump(){const d={version:1,exportedAt:new Date().toISOString()};for(const s of STORES)d[s]=await this.all(s);return d}
+ async dump(){const d={version:2,exportedAt:new Date().toISOString()};for(const s of STORES)d[s]=await this.all(s);return d}
 };
