@@ -1,21 +1,16 @@
 import {repo} from './database.js';
 import {uid} from './utils.js';
 
+const S=(id,label,x,y)=>({id,label,x,y});
 export const FORMATIONS={
- '4-3-3':[['POR',50,90],['LI',15,72],['DFC',38,76],['DFC',62,76],['LD',85,72],['MC',30,56],['MC',50,60],['MC',70,56],['EI',15,30],['DC',50,22],['ED',85,30]],
- '4-4-2':[['POR',50,90],['LI',15,72],['DFC',38,76],['DFC',62,76],['LD',85,72],['MI',15,52],['MC',38,56],['MC',62,56],['MD',85,52],['DC',38,25],['DC',62,25]],
- '4-2-3-1':[['POR',50,90],['LI',15,72],['DFC',38,76],['DFC',62,76],['LD',85,72],['MCD',38,60],['MCD',62,60],['EI',18,40],['MCO',50,38],['ED',82,40],['DC',50,20]],
- '4-3-1-2':[['POR',50,90],['LI',15,72],['DFC',38,76],['DFC',62,76],['LD',85,72],['MC',28,58],['MC',50,62],['MC',72,58],['MCO',50,40],['DC',38,23],['DC',62,23]],
- '3-5-2':[['POR',50,90],['DFC',25,74],['DFC',50,78],['DFC',75,74],['MI',10,50],['MC',32,56],['MC',50,60],['MC',68,56],['MD',90,50],['DC',38,24],['DC',62,24]],
- '3-4-3':[['POR',50,90],['DFC',25,74],['DFC',50,78],['DFC',75,74],['MI',18,53],['MC',40,58],['MC',60,58],['MD',82,53],['EI',18,29],['DC',50,21],['ED',82,29]],
- '5-3-2':[['POR',50,90],['LI',8,70],['DFC',28,76],['DFC',50,79],['DFC',72,76],['LD',92,70],['MC',30,57],['MC',50,62],['MC',70,57],['DC',38,24],['DC',62,24]]
+ '4-4-2':[S('POR','Portero',50,91),S('LI','Lateral izquierdo',14,73),S('CIZ','Central izquierdo',37,77),S('CDE','Central derecho',63,77),S('LD','Lateral derecho',86,73),S('MI','Interior izquierdo',14,51),S('MCI','Mediocentro izquierdo',38,57),S('MCD','Mediocentro derecho',62,57),S('MD','Interior derecho',86,51),S('DLI','Delantero izquierdo',38,25),S('DLD','Delantero derecho',62,25)],
+ '4-3-3':[S('POR','Portero',50,91),S('LI','Lateral izquierdo',14,73),S('CIZ','Central izquierdo',37,77),S('CDE','Central derecho',63,77),S('LD','Lateral derecho',86,73),S('MCI','Mediocentro izquierdo',30,57),S('MC','Mediocentro',50,62),S('MCD','Mediocentro derecho',70,57),S('EI','Extremo izquierdo',17,29),S('DC','Delantero centro',50,21),S('ED','Extremo derecho',83,29)],
+ '4-2-3-1':[S('POR','Portero',50,91),S('LI','Lateral izquierdo',14,73),S('CIZ','Central izquierdo',37,77),S('CDE','Central derecho',63,77),S('LD','Lateral derecho',86,73),S('MCI','Pivote izquierdo',38,61),S('MCD','Pivote derecho',62,61),S('EI','Extremo izquierdo',18,40),S('MCO','Mediapunta',50,39),S('ED','Extremo derecho',82,40),S('DC','Delantero centro',50,20)],
+ '4-1-4-1':[S('POR','Portero',50,91),S('LI','Lateral izquierdo',14,73),S('CIZ','Central izquierdo',37,77),S('CDE','Central derecho',63,77),S('LD','Lateral derecho',86,73),S('MCD','Mediocentro defensivo',50,62),S('MI','Interior izquierdo',15,45),S('MCI','Mediocentro izquierdo',38,49),S('MCD2','Mediocentro derecho',62,49),S('MD','Interior derecho',85,45),S('DC','Delantero centro',50,20)],
+ '3-4-3':[S('POR','Portero',50,91),S('CIZ','Central izquierdo',25,75),S('C','Central',50,79),S('CDE','Central derecho',75,75),S('MI','Carrilero izquierdo',16,54),S('MCI','Mediocentro izquierdo',40,59),S('MCD','Mediocentro derecho',60,59),S('MD','Carrilero derecho',84,54),S('EI','Extremo izquierdo',18,29),S('DC','Delantero centro',50,21),S('ED','Extremo derecho',82,29)],
+ '3-5-2':[S('POR','Portero',50,91),S('CIZ','Central izquierdo',25,76),S('C','Central',50,80),S('CDE','Central derecho',75,76),S('CAI','Carrilero izquierdo',10,50),S('MCI','Mediocentro izquierdo',32,57),S('MC','Mediocentro',50,61),S('MCD','Mediocentro derecho',68,57),S('CAD','Carrilero derecho',90,50),S('DLI','Delantero izquierdo',38,24),S('DLD','Delantero derecho',62,24)],
+ '5-3-2':[S('POR','Portero',50,91),S('LI','Carrilero izquierdo',8,69),S('CIZ','Central izquierdo',28,76),S('C','Central',50,80),S('CDE','Central derecho',72,76),S('LD','Carrilero derecho',92,69),S('MCI','Mediocentro izquierdo',30,57),S('MC','Mediocentro',50,62),S('MCD','Mediocentro derecho',70,57),S('DLI','Delantero izquierdo',38,24),S('DLD','Delantero derecho',62,24)],
+ '5-4-1':[S('POR','Portero',50,91),S('LI','Carrilero izquierdo',8,69),S('CIZ','Central izquierdo',28,76),S('C','Central',50,80),S('CDE','Central derecho',72,76),S('LD','Carrilero derecho',92,69),S('MI','Interior izquierdo',15,49),S('MCI','Mediocentro izquierdo',39,56),S('MCD','Mediocentro derecho',61,56),S('MD','Interior derecho',85,49),S('DC','Delantero centro',50,21)]
 };
 export async function latestLineup(matchId){const ls=(await repo.all('lineups')).filter(x=>x.matchId===matchId).sort((a,b)=>new Date(b.updatedAt||b.createdAt)-new Date(a.updatedAt||a.createdAt));if(!ls.length)return null;const l=ls[0];l.players=await repo.all('lineupPlayers').then(xs=>xs.filter(x=>x.lineupId===l.id));return l}
-export async function saveLineup(matchId,formation,players){
-  const now=new Date().toISOString();
-  const current=await latestLineup(matchId);
-  const lineup={id:uid('L'),matchId,formation,createdAt:now,updatedAt:now,version:(current?.version||0)+1};
-  await repo.put('lineups',lineup);
-  for(const p of players)await repo.put('lineupPlayers',{id:uid('LP'),lineupId:lineup.id,matchId,playerId:p.playerId,status:p.status,role:p.role||'',dorsal:p.dorsal??null,x:+p.x,y:+p.y});
-  return lineup;
-}
+export async function saveLineup(matchId,formation,players){const now=new Date().toISOString(),current=await latestLineup(matchId),lineup={id:uid('L'),matchId,formation,createdAt:now,updatedAt:now,version:(current?.version||0)+1};await repo.put('lineups',lineup);for(const p of players)await repo.put('lineupPlayers',{id:uid('LP'),lineupId:lineup.id,matchId,playerId:p.playerId||null,status:p.status||'titular',role:p.role||'',slotId:p.slotId||'',dorsal:p.dorsal??null,x:+p.x,y:+p.y});return lineup}
