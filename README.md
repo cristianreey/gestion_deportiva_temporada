@@ -16,6 +16,7 @@ Ejemplos:
 - `matches.js`: reglas simples de partido.
 - `statistics.js`: agregados estadísticos.
 - `backup.js`: exportación/importación.
+- `tactics.js` / `boardTools.js`: Pizarra Táctica (fichas, dibujo libre, redimensionado) y su matemática pura.
 - `app.js`: navegación y presentación.
 - `data/demo-data.json`: datos de demostración.
 

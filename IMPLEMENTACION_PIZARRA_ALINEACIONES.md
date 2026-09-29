@@ -12,6 +12,7 @@ Aplicación frontend estática: HTML5, CSS, Bootstrap 5.3, Font Awesome, JavaScr
 
 ## Archivos creados
 - `js/tactics.js`: biblioteca, editor de pizarra, persistencia y relación entrenamiento-ejercicio.
+- `js/boardTools.js`: matemática pura de la pizarra (trazos suaves, flechas, borrador, redimensionado/rotación y límites). Sin DOM, fácil de probar.
 - `IMPLEMENTACION_PIZARRA_ALINEACIONES.md`: este documento.
 
 ## Migración de datos
@@ -48,6 +49,21 @@ Permite buscar, filtrar por categoría, abrir, editar, duplicar y eliminar ejerc
 4. El ejercicio queda relacionado sin duplicar su ficha.
 5. Arrastre ejercicios para cambiar el orden o elimine la relación con ×.
 6. La duración total se calcula sumando las duraciones de los ejercicios asociados.
+
+## Ampliación: dibujo libre y redimensionado (v2)
+### Herramienta de dibujo
+1. Pulse **Dibujar** sobre la pizarra para activar/desactivar el modo dibujo (al desactivarlo vuelve el modo mover).
+2. Elija herramienta: trazo libre, línea recta (Mayús = ángulos de 45°), flecha o borrador (elimina el trazo que toque).
+3. Elija color (blanco, amarillo, rojo, azul, negro) y grosor.
+4. **Deshacer/Rehacer** (también Ctrl+Z / Ctrl+Y) y **Borrar dibujos** (no toca las fichas).
+Los dibujos viven en una capa SVG independiente por encima del campo y se guardan en `boardState.drawings` (coordenadas normalizadas 0–1), por lo que viajan con el ejercicio, la copia de seguridad y la miniatura.
+
+### Redimensionar y girar elementos
+- Al seleccionar una ficha aparece un recuadro con 8 tiradores. Esquina = escala proporcional; lateral = estira en una dirección (Mayús = proporcional).
+- Tirador circular superior = girar (Mayús = saltos de 15°); botón rojo = eliminar. Con la tecla Supr también se elimina.
+- Límites: mínimo 16 px por lado y máximo 80 % de la pizarra; la ficha no se sale del lienzo.
+- Arrastrar el cuerpo mueve; arrastrar un tirador redimensiona. Clic fuera deselecciona.
+- `width`, `height` y `rotation` de cada ficha se guardan con el ejercicio.
 
 ## Comprobaciones realizadas
 - Validación sintáctica de todos los módulos JavaScript mediante `node --check`.
